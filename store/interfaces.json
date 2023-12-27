@@ -1,0 +1,9 @@
+{
+  "footerdesktop": {
+    "component": "FooterDesktop"
+  },
+  "footermobile":{
+    "component":"FooterMobile"
+  }
+  
+}
