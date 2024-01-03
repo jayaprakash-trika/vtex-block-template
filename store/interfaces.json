@@ -4,6 +4,15 @@
   },
   "footermobile":{
     "component":"FooterMobile"
-  }
+  },
+  "headerdesktop":{
+    "component":"HeaderDesktop"
+  },
+  "headermobile":{
+    "component":"HeaderMobile"
+  } 
   
-}
+  }
+
+
+  
