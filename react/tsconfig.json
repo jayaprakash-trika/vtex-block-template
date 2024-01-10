@@ -1,6 +1,11 @@
 {
   "extends": "@vtex/tsconfig",
   "compilerOptions": {
+    "lib": [
+      "DOM",
+      "ES6"
+    ],
+    "allowSyntheticDefaultImports": true,
     "noEmitOnError": false,
     "typeRoots": [
       "node_modules/@types"
@@ -11,7 +16,8 @@
     ],
     "module": "esnext",
     "moduleResolution": "node",
-    "target": "es2017"
+    "target": "es2017",
+    "skipLibCheck": true
   },
   "include": [
     "./typings/*.d.ts",

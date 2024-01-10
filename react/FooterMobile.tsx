@@ -129,7 +129,6 @@ const FooterMobile: StorefrontFunctionComponent<footerProps> = (props) => {
 		</div>
 	);
 };
-
 FooterMobile.schema = {
 	title: "custom-mobile-footer",
 	type: "object",
