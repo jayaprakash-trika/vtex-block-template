@@ -10,7 +10,12 @@
   },
   "headermobile":{
     "component":"HeaderMobile"
+  },
+  "customformdesktop":{
+    "component":"CustomForm"
   } 
+
+  
   
   }
 
