@@ -76,7 +76,6 @@ const FooterDesktop: StorefrontFunctionComponent<footerProps> = (props) => {
 						</div>
 					</div>
 				</div>
-
 				<div className="flex w-50  items-end flex-column mr7">
 					<div>
 						<h2>{props.connectText}</h2>
@@ -109,7 +108,6 @@ const FooterDesktop: StorefrontFunctionComponent<footerProps> = (props) => {
 		</div>
 	);
 };
-
 FooterDesktop.schema = {
 	title: "custom-desktop-footer",
 	type: "object",
@@ -212,5 +210,4 @@ FooterDesktop.schema = {
 		},
 	},
 };
-
 export default FooterDesktop;
