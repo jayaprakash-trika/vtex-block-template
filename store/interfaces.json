@@ -2,8 +2,22 @@
   "footerdesktop": {
     "component": "FooterDesktop"
   },
-  "footermobile":{
-    "component":"FooterMobile"
+  "footermobile": {
+    "component": "FooterMobile"
+  },
+  "headerdesktop": {
+    "component": "HeaderDesktop"
+  },
+  "headermobile": {
+    "component": "HeaderMobile"
+  },
+  "customformdesktop": {
+    "component": "CustomForm"
+  },
+  "studenttable": {
+    "component": "StudentTable"
+  },
+  "customcomponent": {
+    "component": "CustomComponent"
   }
-  
 }
