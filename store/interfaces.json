@@ -11,13 +11,16 @@
   "headermobile":{
     "component":"HeaderMobile"
   },
-  "customformdesktop":{
-    "component":"CustomForm"
-  } 
 
-  
-  
+  "customformdesktop": {
+    "component": "CustomForm"
+  },
+  "studenttable": {
+    "component": "StudentTable"
+  },
+  "customcomponent": {
+    "component": "CustomComponent"
   }
-
+}
 
   

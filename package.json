@@ -16,6 +16,7 @@
     "typescript": "^3.7.5"
   },
   "dependencies": {
+    "@apollo/client": "^3.8.9",
     "fetch": "^1.1.0",
     "graphql": "^16.8.1",
     "node-fetch": "^3.3.2",
