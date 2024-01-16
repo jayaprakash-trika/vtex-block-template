@@ -2,16 +2,15 @@
   "footerdesktop": {
     "component": "FooterDesktop"
   },
-  "footermobile":{
-    "component":"FooterMobile"
+  "footermobile": {
+    "component": "FooterMobile"
   },
-  "headerdesktop":{
-    "component":"HeaderDesktop"
+  "headerdesktop": {
+    "component": "HeaderDesktop"
   },
-  "headermobile":{
-    "component":"HeaderMobile"
+  "headermobile": {
+    "component": "HeaderMobile"
   },
-
   "customformdesktop": {
     "component": "CustomForm"
   },
@@ -22,5 +21,3 @@
     "component": "CustomComponent"
   }
 }
-
-  

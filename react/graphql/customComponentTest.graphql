@@ -14,7 +14,7 @@ pageSize: $pageSize
 where: $where
 schema: $schema
   ) 
-  @context(provider: "vtex.store-graphql"){    
+ {    
   fields {
     value
     key

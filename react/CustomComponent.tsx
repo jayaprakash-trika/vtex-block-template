@@ -19,7 +19,6 @@ export default function CustomComponent() {
     }
     );
 
-console.log("array length",data?.documents.length)
 
     const showMore = async () => {
     
@@ -83,14 +82,3 @@ console.log(data)
         </div>
     );
 }
-
-
-
-
-
-
-
-
-
-
-
