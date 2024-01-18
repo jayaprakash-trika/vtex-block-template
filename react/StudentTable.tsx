@@ -19,27 +19,26 @@ const StudentTable: StorefrontFunctionComponent =  () => {
 useEffect(()=>{
 formData()
 },[])
+console.log(displayData);
 
   return (
     <div>
       <div className='ht4 w-100 flex justify-center'>
-<h3>Service api GET and POST</h3>
+<h3>Node Service</h3>
       </div>
       <table className="f6 w-100 mw8 white center ba" cellSpacing="0" style={{backgroundColor: 'navy' }}>
         <thead>
           <tr>
-            <th className="fw6 pa3 ba">First Name</th>
-            <th className="fw6 pa3 ba">Second Name</th>
-            <th className="fw6 pa3 ba">Age</th>
+            <th className="fw6 pa3 ba">Name</th>
+            <th className="fw6 pa3 ba">Email</th>
             <th className="fw6 pa3 ba">Subject</th>
           </tr>
         </thead>
-        <tbody className="">
+        <tbody >
           {displayData?.map((student:any) => (
              <tr key={student.id}>
-              <td className="pa3 tc ba">{student.firstname}</td>
-              <td className="pa3 tc ba">{student.secondname}</td>
-              <td className="pa3 tc ba">{student.age}</td>
+              <td className="pa3 tc ba">{student.name}</td>
+              <td className="pa3 tc ba">{student.email}</td>
               <td className="pa3 tc ba">{student.subject}</td>
             </tr> 
           ))}

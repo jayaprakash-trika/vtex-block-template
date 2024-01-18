@@ -20,7 +20,7 @@ const CustomForm: StorefrontFunctionComponent = () => {
   const [recaptchaToken, setRecaptchaToken] = useState("");
   const [sitecapKey, setSiteKey] = useState("");
   const captchaRef = useRef(null);
-  const [message, setMessage] = useState("");
+  const [message, setMessage] = useState("");  
   const [error, setError] = useState(false);
   const [success, setSuccess] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -144,7 +144,7 @@ const CustomForm: StorefrontFunctionComponent = () => {
             Signup
           </h1>
 
-          <fieldset className="ph0 mh0">
+          <fieldset >
             <div className="mt3" style={{ textAlign: "left" }}>
               <label
                 className="db fw6 lh-copy f6"
@@ -249,7 +249,7 @@ const CustomForm: StorefrontFunctionComponent = () => {
               <label className="f6 b db mb2">Upload File:</label>
               <input
                 type="file"
-                className="input-reset ba b--black-20 pa2 mb2 db w-100 measure"
+                className="input-reset ba b--black-20 pa2 mb2 db w-full measure"
                 id="fileInput"
                 name="fileInput"
                 onChange={(e) => {

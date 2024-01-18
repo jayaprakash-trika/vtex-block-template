@@ -33,7 +33,7 @@ const HeaderMobile: StorefrontFunctionComponent<HeaderMobileProps> = (props) => 
   return (
     <div>
       <div>
-        <button onClick={() => setIsOpen(true)}>
+        <button onClick={() => setIsOpen(true)} className="br4">
           <IoMdMenu />
         </button>
       </div>
@@ -41,7 +41,7 @@ const HeaderMobile: StorefrontFunctionComponent<HeaderMobileProps> = (props) => 
         <div className="fixed top-0 left-0 w-100 h-screen bg-white">
           <span
             onClick={() => setIsOpen(false)}
-            className="b flex flex-row-reverse mt2 mr2 "
+            className="b flex flex-row-reverse mt2 mr2 pointer"
           >
             CLOSE
           </span>{" "}
@@ -86,7 +86,7 @@ const HeaderMobile: StorefrontFunctionComponent<HeaderMobileProps> = (props) => 
                         {mainMenu === index && (
                           <>
                             <div
-                              className="flex mt2"
+                              className="flex mt2 pointer"
                               onClick={() => setSelectFirstMenu(false)}
                             >
                               <FaLessThan />
@@ -97,7 +97,7 @@ const HeaderMobile: StorefrontFunctionComponent<HeaderMobileProps> = (props) => 
                                 className="red underline pointer"
                                 onClick={() => setSelectFirstMenu(false)}
                               >
-                                <h3>{menu.mainMenuTitle}</h3>
+                                <h3 className="pointer">{menu.mainMenuTitle}</h3>
                               </div>
                             </div>
                             <div>
@@ -155,7 +155,7 @@ const HeaderMobile: StorefrontFunctionComponent<HeaderMobileProps> = (props) => 
                       {mainMenu === index && (
                         <>
                           <div
-                            className="flex "
+                            className="flex pointer "
                             onClick={() => {
                               setSelectSecondMenu(false);
                             }}
@@ -170,7 +170,7 @@ const HeaderMobile: StorefrontFunctionComponent<HeaderMobileProps> = (props) => 
                               setSelectSecondMenu(false);
                             }}
                           >
-                            <h3>{menu.mainMenuTitle}</h3>
+                            <h3 className="pointer">{menu.mainMenuTitle}</h3>
                           </div>
                           <div className="ml5">
                             {menu.menuItems?.map((subitem, index) => {
@@ -185,7 +185,7 @@ const HeaderMobile: StorefrontFunctionComponent<HeaderMobileProps> = (props) => 
                                             setSelectSecondMenu(false);
                                           }}
                                         >
-                                          <h3>{subitem.firstSubMenu}</h3>
+                                          <h3 className="pointer">{subitem.firstSubMenu}</h3>
                                         </div>
 
                                         <div
@@ -204,7 +204,7 @@ const HeaderMobile: StorefrontFunctionComponent<HeaderMobileProps> = (props) => 
                                                 >
                                                   <a
                                                     href={subitems.href}
-													className={`no-underline black  b `}
+													className={`no-underline  b `} style={{color:"black"}}
                                                   >
                                                     {subitems.subMenuItemLabel}
                                                   </a>
